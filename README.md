@@ -1,2 +1,5 @@
 # static-node-and-express-site
-personal portfolio displaying projects I've completed
+Personal portfolio displaying projects I've completed
+
+Utilizes: Node.js, Express, and Pug templating
+

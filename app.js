@@ -1,24 +1,28 @@
+//Dependencies
 const express = require('express');
-const { send } = require('process');
-
 const app = express();
-
 const { projects } = require('./data.json');
 
-app.use('/static', express.static('public'));
+//Set Pug view engine
 app.set('view engine', 'pug');
 
+//Static route to serve static files in 'public' folder
+app.use('/static', express.static('public'));
+
+//Index route
 app.get('/', (req, res) => {
     res.locals.projects = projects;
     res.render('index');
 
 });
 
+//About route
 app.get('/about', (req, res) => {
     res.render('about');
     
 })
 
+//Dynamic projects route
  app.get('/projects/:id', (req, res, next) => {
     const id = +req.params.id;
     if (projects[id]) {
@@ -31,6 +35,7 @@ app.get('/about', (req, res) => {
     }
 });
 
+//404 Error Handler
 app.use((req, res, next) => {
     const err = new Error('That page does not exist. ૮ ˶ᵔ ᵕ ᵔ˶ ა Please check the URL.');
     err.status = 404;
@@ -38,7 +43,7 @@ app.use((req, res, next) => {
 
 
 })
-
+//Global Error Handler
 app.use((err, req, res, next) => {
     err.message = err.message || "Apologies, a problem occurred with our server!";
     err.status = err.status || 500;
@@ -49,7 +54,7 @@ app.use((err, req, res, next) => {
 });
 
 
-
+//Starts app, listening on port 3000
 app.listen(3000, () => {
     console.log('Testing 1...2...3');
   
