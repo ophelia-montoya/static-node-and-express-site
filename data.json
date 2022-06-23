@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://ophelia-montoya.github.io/random-quote-generator-v1.1/",
             "github_link": "https://github.com/ophelia-montoya/random-quote-generator-v1.1.git",
-            "image_urls": ""
+            "image_urls": ["/static/images/0_0.png", "/static/images/0_1.png"]
 
         },
         {
@@ -17,7 +17,7 @@
             "technologies": ["HTML", "CSS", "Javascript"],
             "live_link": "https://ophelia-montoya.github.io/data-pagination-and-filtering-v1.2/",
             "github_link": "https://github.com/ophelia-montoya/data-pagination-and-filtering-v1.2.git",
-            "image_urls": ""
+            "image_urls": ["/static/images/1_0.png", "/static/images/1_1.png", "/static/images/1_2.png"]
 
         },
         {
@@ -27,7 +27,7 @@
             "technologies": ["HTML", "CSS", "Javascript", "Debugger"],
             "live_link": "https://ophelia-montoya.github.io/interactive-form-v3.1/",
             "github_link": "https://github.com/ophelia-montoya/interactive-form-v3.1.git",
-            "image_urls": ""
+            "image_urls": ["/static/images/2_0.png", "/static/images/2_1.png", "/static/images/2_2.png"]
 
         },
         {
@@ -37,7 +37,7 @@
             "technologies": ["HTML", "CSS", "Javascript", "OOP"],
             "live_link": "https://ophelia-montoya.github.io/oop-game-v2.1/",
             "github_link": "https://github.com/ophelia-montoya/oop-game-v2.1.git",
-            "image_urls": ""
+            "image_urls": ["/static/images/3_0.png", "/static/images/3_1.png", "/static/images/3_2.png", "/static/images/3_3.png"]
 
         },
         {
@@ -47,7 +47,7 @@
             "technologies": ["HTML", "Javascript", "Asynchronous JavaScript", "APIs"],
             "live_link": "https://ophelia-montoya.github.io/public-api-requests/",
             "github_link": "https://github.com/ophelia-montoya/public-api-requests.git",
-            "image_urls": ""
+            "image_urls": ["/static/images/4_0.png", "/static/images/4_1.png", "/static/images/4_2.png"]
 
         }
 
